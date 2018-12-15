@@ -11,8 +11,5 @@ open class BaseActivity:AppCompatActivity(){
 
     val carFactory :CarFactory by inject()
 
-    override fun onCreate(savedInstanceState: Bundle?, persistentState: PersistableBundle?) {
-        super.onCreate(savedInstanceState, persistentState)
 
-    }
 }

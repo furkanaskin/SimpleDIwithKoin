@@ -6,7 +6,7 @@ import org.koin.dsl.module.module
 
 object AppModule{
 
-    fun getModule() : Module = module(definition = {
+    fun getModule() : Module = module{
         single{ CarFactory(get())}
-    })
+    }
 }
